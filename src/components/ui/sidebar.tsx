@@ -183,7 +183,10 @@ const Sidebar = React.forwardRef<
             }
             side="left"
           >
-            <div className="flex h-full w-full flex-col">{children}</div>
+            <SheetHeader className="p-2 text-center border-b-2 border-black/30">
+                <SheetTitle className="text-white text-lg">Menu</SheetTitle>
+            </SheetHeader>
+            <div className="flex h-full w-full flex-col overflow-hidden">{children}</div>
           </SheetContent>
         </Sheet>
       )
