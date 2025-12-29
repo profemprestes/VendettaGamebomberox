@@ -1,5 +1,6 @@
 'use client'
 
+import React from "react";
 import Link from "next/link";
 import { Bell, BookOpen, Building, ChevronDown, Castle, Crosshair, FileText, Globe, Hand, HelpCircle, Home, LogOut, Map, MessageSquare, Scale, Search, Settings, Shield, Swords, Users, Warehouse } from "lucide-react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
