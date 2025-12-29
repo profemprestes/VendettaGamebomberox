@@ -3,10 +3,10 @@
 import React from "react";
 import Link from "next/link";
 import { Bell, BookOpen, Building, ChevronDown, Castle, Crosshair, FileText, Globe, Hand, HelpCircle, Home, LogOut, Map, MessageSquare, Scale, Search, Settings, Shield, Swords, Users, Warehouse } from "lucide-react";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { SidebarHeader, SidebarContent, SidebarMenu, SidebarMenuItem, SidebarMenuButton } from "@/components/ui/sidebar";
 import { Separator } from "@/components/ui/separator";
 import { SignOutButton } from "./sign-out-button";
+import { ClientSelect } from "@/components/ui/client-select";
 
 const menuItems = [
     { name: "Nueva alerta", icon: Bell, href: "/dashboard/alerts", highlight: true },
@@ -75,14 +75,7 @@ export function SideNav({ userEmail }: { userEmail: string | undefined }) {
                                     <div className="flex items-center gap-2 text-sm p-2 bg-stone-200 text-black rounded-sm">
                                         <item.icon className="h-4 w-4" />
                                         <span className="flex-1">Buscar</span>
-                                        <Select defaultValue="34:13:129">
-                                            <SelectTrigger className="w-auto h-6 text-xs bg-white border-stone-400 focus:ring-0">
-                                                <SelectValue/>
-                                            </SelectTrigger>
-                                            <SelectContent>
-                                                <SelectItem value="34:13:129">34:13:129</SelectItem>
-                                            </SelectContent>
-                                        </Select>
+                                        <ClientSelect />
                                     </div>
                                 </div>
                             ) : (
