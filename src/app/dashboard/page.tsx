@@ -1,6 +1,5 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
-import { Button } from '@/components/ui/button'
 import {
   Card,
   CardContent,
@@ -8,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
+import { SignOutButton } from './sign-out-button'
 
 export default async function DashboardPage() {
   const supabase = createClient()
@@ -17,13 +17,6 @@ export default async function DashboardPage() {
   } = await supabase.auth.getUser()
 
   if (!user) {
-    redirect('/login')
-  }
-
-  const signOut = async () => {
-    'use server'
-    const supabase = createClient()
-    await supabase.auth.signOut()
     redirect('/login')
   }
 
@@ -39,11 +32,7 @@ export default async function DashboardPage() {
         <CardContent>
           <div className="flex w-full flex-col space-y-4">
             <p>Este es tu panel de control. ¡Más funciones próximamente!</p>
-            <form action={signOut}>
-              <Button type="submit" className="w-full">
-                Cerrar Sesión
-              </Button>
-            </form>
+            <SignOutButton />
           </div>
         </CardContent>
       </Card>

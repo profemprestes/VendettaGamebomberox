@@ -151,3 +151,9 @@ export async function socialLogin(provider: 'google' | 'github') {
   
   return redirect(data.url)
 }
+
+export async function signOut() {
+  const supabase = createClient()
+  await supabase.auth.signOut()
+  redirect('/login')
+}
