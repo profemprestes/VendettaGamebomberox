@@ -12,7 +12,7 @@ const resources = [
 export function ResourceBar() {
     return (
         <div className="bg-stone-800 text-white shadow-lg">
-            <div className="grid grid-cols-4 gap-px bg-black/20">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-black/20">
                 {resources.map(resource => (
                     <div key={resource.name} className="bg-stone-700/80 p-2">
                         <div className="flex items-center justify-between">
