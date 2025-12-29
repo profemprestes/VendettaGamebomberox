@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Bell, BookOpen, Building, ChevronDown, Castle, Crosshair, FileText, Globe, Hand, HelpCircle, Home, LogOut, Map, MessageSquare, Scale, Search, Settings, Shield, Swords, Users, Warehouse } from "lucide-react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { SidebarHeader, SidebarContent, SidebarMenu, SidebarMenuItem, SidebarMenuButton } from "@/components/ui/sidebar";
+import { Separator } from "@/components/ui/separator";
+import { SignOutButton } from "./sign-out-button";
 
 const menuItems = [
     { name: "Nueva alerta", icon: Bell, href: "/dashboard/alerts", highlight: true },
@@ -30,29 +32,40 @@ const menuItems = [
     { name: "Regole Gioco", icon: BookOpen, href: "/dashboard/rules" },
     { name: "Opciones", icon: Settings, href: "/dashboard/options" },
     { name: "Segnala un Bug", icon: HelpCircle, href: "/dashboard/bug-report" },
-    { name: "Salir", icon: LogOut, href: "/login", isAction: true },
 ];
 
 
-export function SideNav() {
-    const currentDate = new Date().toLocaleString('en-US', {
-        weekday: 'short',
-        month: 'numeric',
-        day: 'numeric',
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-        hour12: false,
-    }).replace(',', ' -');
+export function SideNav({ userEmail }: { userEmail: string | undefined }) {
+    const [currentDate, setCurrentDate] = React.useState('');
+
+    React.useEffect(() => {
+        const updateDate = () => {
+            const date = new Date().toLocaleString('en-US', {
+                weekday: 'short',
+                month: 'numeric',
+                day: 'numeric',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false,
+            }).replace(',', ' -');
+            setCurrentDate(date.replace(/\//g, '.'));
+        };
+
+        updateDate();
+        const intervalId = setInterval(updateDate, 1000);
+
+        return () => clearInterval(intervalId);
+    }, []);
 
     return (
-        <>
+        <div className="flex flex-col h-full">
             <SidebarHeader className="bg-stone-900/50 p-2 text-center border-b-2 border-black/30">
                 <h2 className="font-bold text-lg">Menu</h2>
-                <p className="text-xs text-stone-400">{currentDate.replace(/\//g, '.')}</p>
+                <p className="text-xs text-stone-400">{currentDate}</p>
             </SidebarHeader>
-            <SidebarContent>
+            <SidebarContent className="flex-1">
                 <SidebarMenu>
                     {menuItems.map((item) => (
                         <SidebarMenuItem key={item.name}>
@@ -85,6 +98,11 @@ export function SideNav() {
                     ))}
                 </SidebarMenu>
             </SidebarContent>
-        </>
+            <Separator className="bg-black/30" />
+            <div className="p-4 space-y-2 border-t-2 border-black/30">
+                <p className="text-xs text-stone-400 truncate">Conectado como: {userEmail}</p>
+                <SignOutButton />
+            </div>
+        </div>
     );
 }

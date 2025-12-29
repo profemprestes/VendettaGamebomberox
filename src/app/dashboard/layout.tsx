@@ -2,7 +2,6 @@ import { createClient } from '@/lib/supabase/server';
 import { redirect } from 'next/navigation';
 import { SideNav } from './side-nav';
 import { ResourceBar } from './resource-bar';
-import { SignOutButton } from './sign-out-button';
 import { SidebarProvider, Sidebar, SidebarTrigger, SidebarInset } from '@/components/ui/sidebar';
 
 export default async function DashboardLayout({
@@ -24,16 +23,14 @@ export default async function DashboardLayout({
     <SidebarProvider>
       <div className="flex min-h-screen bg-stone-300 text-black">
         <Sidebar>
-          <SideNav />
+          <SideNav userEmail={user.email} />
         </Sidebar>
         <SidebarInset>
           <div className="flex flex-1 flex-col">
-            <header className="bg-primary/90 text-primary-foreground flex justify-between items-center px-4 py-1 text-sm border-b-2 border-black/20 shadow-md">
+            <header className="bg-primary/90 text-primary-foreground flex justify-start items-center px-4 py-1 text-sm border-b-2 border-black/20 shadow-md">
               <div className="flex items-center gap-2">
                 <SidebarTrigger />
-                <p>Conectado como: {user.email}</p>
               </div>
-              <SignOutButton />
             </header>
             <ResourceBar />
             <main className="flex-1 p-4 overflow-y-auto">
