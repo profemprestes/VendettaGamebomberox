@@ -119,6 +119,42 @@
       "description": "A wise and well-dressed consigliere.",
       "imageUrl": "/img/trop/troop-consigliere.webp",
       "imageHint": "mafia consigliere"
+    },
+    {
+      "id": "room-tavern",
+      "description": "A dark tavern with wooden furniture.",
+      "imageUrl": "/img/hab/room-tavern.webp",
+      "imageHint": "dark tavern"
+    },
+    {
+      "id": "room-contraband",
+      "description": "Boxes of contraband goods.",
+      "imageUrl": "/img/hab/room-contraband.webp",
+      "imageHint": "contraband goods"
+    },
+    {
+      "id": "room-vault",
+      "description": "A large bank vault.",
+      "imageUrl": "/img/hab/room-vault.webp",
+      "imageHint": "bank vault"
+    },
+    {
+      "id": "room-security",
+      "description": "A security room with monitors.",
+      "imageUrl": "/img/hab/room-security.webp",
+      "imageHint": "security room"
+    },
+    {
+      "id": "room-turret",
+      "description": "An automated turret.",
+      "imageUrl": "/img/hab/room-turret.webp",
+      "imageHint": "automated turret"
+    },
+    {
+      "id": "room-mines",
+      "description": "Hidden land mines.",
+      "imageUrl": "/img/hab/room-mines.webp",
+      "imageHint": "land mines"
     }
   ]
 }
