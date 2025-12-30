@@ -23,7 +23,7 @@ export function Needles() {
         ))}
         <div className="flex justify-between border-t border-black/20 mt-2 pt-2">
             <span>Poder de ataque</span>
-            <span>100% (<Link href="#" className="text-blue-800 hover:underline">Detalles</Link>)</span>
+            <span>100% (<Link href="/dashboard/poderataque" className="text-blue-800 hover:underline">Detalles</Link>)</span>
         </div>
         <div className="text-center mt-2">
             <Link href="#" className="text-blue-800 hover:underline">Visión global</Link>
