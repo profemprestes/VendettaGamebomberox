@@ -15,7 +15,7 @@
     {
       "id": "gangster-silhouette",
       "description": "Silhouette of a gangster holding a submachine gun.",
-      "imageUrl": "https://images.unsplash.com/photo-1669264736964-7beeb59ef28c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYW5nc3RlciUyMHNpbGhvdWV0dGV8ZW58MHx8fHwxNzY2OTc5MDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1669264736964-7beeb59ef28c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYW5nc3RlciUyMHNpbGhvdWV0dGV8ZW58MHx8fHwxNzY2OTcixMDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gangster silhouette"
     },
     {
@@ -63,182 +63,290 @@
     {
       "id": "room-office",
       "description": "A dimly lit, classic mob boss office with a large wooden desk.",
-      "imageUrl": "/img/hab/room-office.webp",
+      "imageUrl": "/img/hab/oficina.webp",
       "imageHint": "boss office"
     },
     {
       "id": "room-specialization",
       "description": "A training dummy for specialization.",
-      "imageUrl": "/img/hab/room-specialization.webp",
+      "imageUrl": "/img/hab/escuela.webp",
       "imageHint": "training dummy"
     },
     {
       "id": "room-armory",
       "description": "An armory with rifles on the wall.",
-      "imageUrl": "/img/hab/room-armory.webp",
+      "imageUrl": "/img/hab/armeria.webp",
       "imageHint": "armory rifles"
     },
     {
       "id": "room-ammo",
       "description": "An ammo warehouse with boxes of bullets.",
-      "imageUrl": "/img/hab/room-ammo.webp",
+      "imageUrl": "/img/hab/municion.webp",
       "imageHint": "ammo warehouse"
     },
     {
       "id": "room-brewery",
       "description": "A vintage brewery with wooden barrels.",
-      "imageUrl": "/img/hab/room-brewery.webp",
+      "imageUrl": "/img/hab/cerveceria.webp",
       "imageHint": "vintage brewery"
     },
     {
       "id": "room-training",
       "description": "A training camp with targets.",
-      "imageUrl": "/img/hab/room-training.webp",
+      "imageUrl": "/img/hab/campo.webp",
       "imageHint": "training camp"
     },
     {
-      "id": "troop-thug",
+      "id": "troop-porteador",
+      "description": "A civilian carrying goods.",
+      "imageUrl": "/img/trp/porteador.webp",
+      "imageHint": "civilian carrier"
+    },
+    {
+      "id": "troop-maton",
       "description": "A tough looking street thug.",
-      "imageUrl": "/img/trop/troop-thug.webp",
+      "imageUrl": "/img/trp/maton.webp",
       "imageHint": "street thug"
     },
     {
       "id": "troop-assassin",
       "description": "A stealthy assassin in the shadows.",
-      "imageUrl": "/img/trop/troop-assassin.webp",
+      "imageUrl": "/img/trp/asesino.webp",
       "imageHint": "stealthy assassin"
     },
     {
       "id": "troop-enforcer",
       "description": "A heavily built enforcer.",
-      "imageUrl": "/img/trop/troop-enforcer.webp",
+      "imageUrl": "/img/trp/guardaespaldas.webp",
       "imageHint": "mafia enforcer"
     },
     {
       "id": "troop-consigliere",
       "description": "A wise and well-dressed consigliere.",
-      "imageUrl": "/img/trop/troop-consigliere.webp",
+      "imageUrl": "/img/trp/ilegal.webp",
       "imageHint": "mafia consigliere"
     },
     {
       "id": "room-tavern",
       "description": "A dark tavern with wooden furniture.",
-      "imageUrl": "/img/hab/room-tavern.webp",
+      "imageUrl": "/img/hab/taberna.webp",
       "imageHint": "dark tavern"
     },
     {
       "id": "room-contraband",
       "description": "Boxes of contraband goods.",
-      "imageUrl": "/img/hab/room-contraband.webp",
+      "imageUrl": "/img/hab/contrabando.webp",
       "imageHint": "contraband goods"
     },
     {
       "id": "room-vault",
       "description": "A large bank vault.",
-      "imageUrl": "/img/hab/room-vault.webp",
+      "imageUrl": "/img/hab/caja.webp",
       "imageHint": "bank vault"
     },
     {
       "id": "room-security",
       "description": "A security room with monitors.",
-      "imageUrl": "/img/hab/room-security.webp",
+      "imageUrl": "/img/hab/seguridad.webp",
       "imageHint": "security room"
     },
     {
       "id": "room-turret",
       "description": "An automated turret.",
-      "imageUrl": "/img/hab/room-turret.webp",
+      "imageUrl": "/img/hab/torreta.webp",
       "imageHint": "automated turret"
     },
     {
       "id": "room-mines",
       "description": "Hidden land mines.",
-      "imageUrl": "/img/hab/room-mines.webp",
+      "imageUrl": "/img/hab/minas.webp",
       "imageHint": "land mines"
     },
     {
       "id": "training-routes",
       "description": "A map with routes planned on it.",
-      "imageUrl": "/img/train/training-routes.webp",
+      "imageUrl": "/img/ent/rutas.webp",
       "imageHint": "route map"
     },
     {
       "id": "training-planning",
       "description": "A blueprint on a wooden table.",
-      "imageUrl": "/img/train/training-planning.webp",
+      "imageUrl": "/img/ent/encargos.webp",
       "imageHint": "blueprint plan"
     },
     {
       "id": "training-extortion",
       "description": "Stacks of cash on a table.",
-      "imageUrl": "/img/train/training-extortion.webp",
+      "imageUrl": "/img/ent/extorsion.webp",
       "imageHint": "cash stacks"
     },
     {
       "id": "training-base-admin",
       "description": "Documents and a pen on a desk.",
-      "imageUrl": "/img/train/training-base-admin.webp",
+      "imageUrl": "/img/ent/administracion.webp",
       "imageHint": "office documents"
     },
     {
       "id": "training-espionage",
       "description": "A map with a knife and a magnifying glass.",
-      "imageUrl": "/img/train/training-espionage.webp",
+      "imageUrl": "/img/ent/espionaje.webp",
       "imageHint": "espionage tools"
     },
     {
       "id": "training-security",
       "description": "A secure door with a keypad.",
-      "imageUrl": "/img/train/training-security.webp",
+      "imageUrl": "/img/ent/seguridad.webp",
       "imageHint": "security door"
     },
     {
       "id": "training-hand-combat",
       "description": "Two coins on a table.",
-      "imageUrl": "/img/train/training-hand-combat.webp",
+      "imageUrl": "/img/ent/combate.webp",
       "imageHint": "old coins"
     },
     {
       "id": "training-close-combat",
       "description": "A combat knife on a wooden surface.",
-      "imageUrl": "/img/train/training-close-combat.webp",
+      "imageUrl": "/img/ent/armas.webp",
       "imageHint": "combat knife"
     },
     {
       "id": "training-shooting",
       "description": "A rifle with accessories on a table.",
-      "imageUrl": "/img/train/training-shooting.webp",
+      "imageUrl": "/img/ent/tiro.webp",
       "imageHint": "rifle accessories"
     },
     {
       "id": "training-explosives",
       "description": "Sticks of dynamite and a blueprint.",
-      "imageUrl": "/img/train/training-explosives.webp",
+      "imageUrl": "/img/ent/explosivos.webp",
       "imageHint": "dynamite blueprint"
     },
     {
       "id": "training-guerrilla",
       "description": "A map, a compass and a knife.",
-      "imageUrl": "/img/train/training-guerrilla.webp",
+      "imageUrl": "/img/ent/guerrilla.webp",
       "imageHint": "guerrilla tools"
     },
     {
       "id": "training-psychological",
       "description": "Pills and dice on a table.",
-      "imageUrl": "/img/train/training-psychological.webp",
+      "imageUrl": "/img/ent/psicologico.webp",
       "imageHint": "pills dice"
     },
     {
       "id": "training-chemical",
       "description": "Concrete cylinders on a surface.",
-      "imageUrl": "/img/train/training-chemical.webp",
+      "imageUrl": "/img/ent/quimico.webp",
       "imageHint": "concrete cylinders"
     },
     {
       "id": "training-honor",
       "description": "A framed certificate on a table.",
-      "imageUrl": "/img/train/training-honor.webp",
+      "imageUrl": "/img/ent/honor.webp",
       "imageHint": "framed certificate"
+    },
+    {
+      "id": "troop-acuchillador",
+      "description": "A figure holding a large knife.",
+      "imageUrl": "/img/trp/acuchillador.webp",
+      "imageHint": "knife wielder"
+    },
+    {
+      "id": "troop-centinela",
+      "description": "A watchful sentinel on guard.",
+      "imageUrl": "/img/trp/centinela.webp",
+      "imageHint": "watchful sentinel"
+    },
+    {
+      "id": "troop-cia",
+      "description": "A CIA agent in a suit.",
+      "imageUrl": "/img/trp/cia.webp",
+      "imageHint": "cia agent"
+    },
+    {
+      "id": "troop-demolition",
+      "description": "A demolition expert with explosives.",
+      "imageUrl": "/img/trp/demolicion.webp",
+      "imageHint": "demolition expert"
+    },
+    {
+      "id": "troop-spy",
+      "description": "A spy in a trench coat.",
+      "imageUrl": "/img/trp/espia.webp",
+      "imageHint": "trench-coat spy"
+    },
+    {
+      "id": "troop-fbi",
+      "description": "An FBI agent with a badge.",
+      "imageUrl": "/img/trp/fbi.webp",
+      "imageHint": "fbi agent"
+    },
+    {
+      "id": "troop-sniper",
+      "description": "A sniper with a long-range rifle.",
+      "imageUrl": "/img/trp/francotirador.webp",
+      "imageHint": "sniper rifle"
+    },
+    {
+      "id": "troop-bodyguard",
+      "description": "A muscular bodyguard.",
+      "imageUrl": "/img/trp/guardaespalda.webp",
+      "imageHint": "muscular bodyguard"
+    },
+    {
+      "id": "troop-guard",
+      "description": "A security guard in uniform.",
+      "imageUrl": "/img/trp/guardia.webp",
+      "imageHint": "security guard"
+    },
+    {
+      "id": "troop-mercenary",
+      "description": "A soldier of fortune with a rifle.",
+      "imageUrl": "/img/trp/mercenario.webp",
+      "imageHint": "mercenary rifle"
+    },
+    {
+      "id": "troop-ninja",
+      "description": "A ninja with a sword.",
+      "imageUrl": "/img/trp/ninja.webp",
+      "imageHint": "ninja sword"
+    },
+    {
+      "id": "troop-occupation",
+      "description": "A soldier in combat gear.",
+      "imageUrl": "/img/trp/ocupacion.webp",
+      "imageHint": "combat soldier"
+    },
+    {
+      "id": "troop-gunman",
+      "description": "A gunman with a pistol.",
+      "imageUrl": "/img/trp/pistolero.webp",
+      "imageHint": "pistol gunman"
+    },
+    {
+      "id": "troop-police",
+      "description": "A police officer in uniform.",
+      "imageUrl": "/img/trp/policia.webp",
+      "imageHint": "police officer"
+    },
+    {
+      "id": "troop-doorman",
+      "description": "A doorman in a uniform.",
+      "imageUrl": "/img/trp/portero.webp",
+      "imageHint": "uniformed doorman"
+    },
+    {
+      "id": "troop-tactical",
+      "description": "A tactical operator in full gear.",
+      "imageUrl": "/img/trp/tactico.webp",
+      "imageHint": "tactical operator"
+    },
+    {
+      "id": "troop-carrier",
+      "description": "A person carrying a heavy load.",
+      "imageUrl": "/img/trp/transportista.webp",
+      "imageHint": "heavy load"
     }
   ]
 }
