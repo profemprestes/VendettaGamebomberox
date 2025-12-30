@@ -6,17 +6,11 @@ import { Input } from "@/components/ui/input";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Coins, Shell, Droplets } from "lucide-react";
 import { ReactNode } from "react";
+import type { Troop as TroopData } from "@/lib/data/recruitment-data";
 
-type Troop = {
-  image: string;
-  duration: ReactNode;
-  description: ReactNode;
-  costs(costs: any): unknown;
-  name: string;
-}
 
 type TroopCardProps = {
-  troop: Troop;
+  troop: TroopData;
 };
 
 const ResourceIcon = ({ type }: { type: string }) => {
