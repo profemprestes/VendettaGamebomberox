@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vendettadashboardredis.vercel.app/sitemap.xml
