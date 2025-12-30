@@ -2,7 +2,7 @@
 
 import { useActionState } from 'react'
 import { useFormStatus } from 'react-dom'
-import { resetPassword } from '@/lib/actions/auth'
+import { resetPassword } from '@/actions/auth.stubs'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -12,7 +12,7 @@ import { useToast } from '@/hooks/use-toast'
 
 const initialState = {
   message: '',
-  errors: undefined,
+  errors: {} as Record<string, string[]>,
 }
 
 function SubmitButton() {
