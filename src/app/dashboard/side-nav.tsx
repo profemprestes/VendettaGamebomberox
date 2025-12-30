@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Bell, BookOpen, Building, ChevronDown, Castle, Crosshair, FileText, Globe, Hand, HelpCircle, Home, LogOut, Map, MessageSquare, Scale, Search, Settings, Shield, Swords, Users, Warehouse } from "lucide-react";
+import { Bell, BookOpen, Building, ChevronDown, Castle, Crosshair, FileText, Globe, Hand, HelpCircle, Home, LogOut, Map, MessageSquare, Scale, Search, Settings, Shield, Swords, Users, Warehouse, Eye } from "lucide-react";
 import { SidebarHeader, SidebarContent, SidebarMenu, SidebarMenuItem, SidebarMenuButton, useSidebar } from "@/components/ui/sidebar";
 import { Separator } from "@/components/ui/separator";
 import { SignOutButton } from "./sign-out-button";
@@ -11,6 +11,7 @@ import { ClientSelect } from "@/components/ui/client-select";
 const menuItems = [
     { name: "Nueva alerta", icon: Bell, href: "/dashboard/alerts", highlight: true },
     { name: "Vision general", icon: Home, href: "/dashboard" },
+    { name: "Visión Global", icon: Eye, href: "/dashboard/overview" },
     { name: "Habitaciones", icon: Building, href: "/dashboard/rooms" },
     { name: "Reclutamiento", icon: Users, href: "/dashboard/recruitment" },
     { name: "Seguridad", icon: Shield, href: "/dashboard/security" },

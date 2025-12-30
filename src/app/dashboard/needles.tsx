@@ -26,7 +26,7 @@ export function Needles() {
             <span>100% (<Link href="/dashboard/poderataque" className="text-blue-800 hover:underline">Detalles</Link>)</span>
         </div>
         <div className="text-center mt-2">
-            <Link href="#" className="text-blue-800 hover:underline">Visión global</Link>
+            <Link href="/dashboard/overview" className="text-blue-800 hover:underline">Visión global</Link>
         </div>
       </CardContent>
     </Card>
