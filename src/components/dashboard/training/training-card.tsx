@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Coins, Shell, Droplets } from "lucide-react";
-import type { Training } from "./training-data";
+import { Training, trainingData } from "@/lib/data/training-data";
 
 type TrainingCardProps = {
   training: Training;
