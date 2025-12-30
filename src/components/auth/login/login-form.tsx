@@ -10,7 +10,7 @@ import { Label } from '@/components/ui/label'
 import Link from 'next/link'
 import { useEffect } from 'react'
 import { useToast } from '@/hooks/use-toast'
-import { SocialButtons } from '@/app/(auth)/social-buttons'
+import { Button } from 'react-day-picker'
 
 const initialState = {
   message: '',
