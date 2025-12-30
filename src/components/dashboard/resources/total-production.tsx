@@ -12,7 +12,7 @@ import {
     TableHeader,
     TableRow,
   } from "@/components/ui/table";
-import { totalProductionData } from "./resources-data";
+import { totalProductionData } from "@/lib/data/resources-data";
 
 export function TotalProduction() {
     return (

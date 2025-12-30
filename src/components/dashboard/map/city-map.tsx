@@ -7,7 +7,7 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { cn } from "@/lib/utils";
-import type { Tile } from "./map-data";
+import type { Tile } from "@/lib/data/map-data";
   
 type CityMapProps = {
     tiles: Tile[];

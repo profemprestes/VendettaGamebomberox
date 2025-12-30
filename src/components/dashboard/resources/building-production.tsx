@@ -12,7 +12,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table";
-import { buildingProductionData } from "./resources-data";
+import { buildingProductionData } from "@/lib/data/resources-data";
   
 export function BuildingProduction() {
     const totals = buildingProductionData.buildings.reduce((acc, building) => {
