@@ -57,67 +57,67 @@
     {
       "id": "dark-alley",
       "description": "A dark, empty city alley at night.",
-      "imageUrl": "https://images.unsplash.com/photo-1618193139129-397eda8f0293?q=80&w=1964&auto=format&fit=crop&ixlib-rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "https://images.unsplash.com/photo-1618193139129-397eda8f0293?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "dark alley"
     },
     {
       "id": "room-office",
       "description": "A dimly lit, classic mob boss office with a large wooden desk.",
-      "imageUrl": "https://images.unsplash.com/photo-1689467909244-631e55404336?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib3NzJTIwb2ZmaWNlfGVufDB8fHx8MTc2Njk5MDgwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/hab/room-office.webp",
       "imageHint": "boss office"
     },
     {
       "id": "room-specialization",
       "description": "A training dummy for specialization.",
-      "imageUrl": "https://images.unsplash.com/photo-1766502715616-374da81c2a9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0cmFpbmluZyUyMGR1bW15fGVufDB8fHx8MTc2Njk5MDgwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/hab/room-specialization.webp",
       "imageHint": "training dummy"
     },
     {
       "id": "room-armory",
       "description": "An armory with rifles on the wall.",
-      "imageUrl": "https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhcm1vcnklMjByaWZsZXN8ZW58MHx8fHwxNzY2OTkwODA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/hab/room-armory.webp",
       "imageHint": "armory rifles"
     },
     {
       "id": "room-ammo",
       "description": "An ammo warehouse with boxes of bullets.",
-      "imageUrl": "https://images.unsplash.com/photo-1619597255376-e793d6f9df22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhbW1vJTIwd2FyZWhvdXNlfGVufDB8fHx8MTc2Njk5MDgwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/hab/room-ammo.webp",
       "imageHint": "ammo warehouse"
     },
     {
       "id": "room-brewery",
       "description": "A vintage brewery with wooden barrels.",
-      "imageUrl": "https://images.unsplash.com/photo-1719752486404-05a6316fbf15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2aW50YWdlJTIwYnJld2VyeXxlbnwwfHx8fDE3NjY5OTA4MDR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/hab/room-brewery.webp",
       "imageHint": "vintage brewery"
     },
     {
       "id": "room-training",
       "description": "A training camp with targets.",
-      "imageUrl": "https://images.unsplash.com/photo-1766502715596-d5fe6d94123b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0cmFpbmluZyUyMGNhbXB8ZW58MHx8fHwxNzY2OTkwODA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/hab/room-training.webp",
       "imageHint": "training camp"
     },
     {
       "id": "troop-thug",
       "description": "A tough looking street thug.",
-      "imageUrl": "https://images.unsplash.com/photo-1544218415-f9a5ca4ce2f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHJlZXQlMjB0aHVnfGVufDB8fHx8MTc2Njk5MTY2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/trop/troop-thug.webp",
       "imageHint": "street thug"
     },
     {
       "id": "troop-assassin",
       "description": "A stealthy assassin in the shadows.",
-      "imageUrl": "https://images.unsplash.com/photo-1609558593662-50c873dca4ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdGVhbHRoeSUyMGFzc2Fzc2lufGVufDB8fHx8MTc2Njk5MTY2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/trop/troop-assassin.webp",
       "imageHint": "stealthy assassin"
     },
     {
       "id": "troop-enforcer",
       "description": "A heavily built enforcer.",
-      "imageUrl": "https://images.unsplash.com/photo-1691316749874-e89297ee4cf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWZpYSUyMGVuZm9yY2VyfGVufDB8fHx8MTc2Njk5MTY2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/trop/troop-enforcer.webp",
       "imageHint": "mafia enforcer"
     },
     {
       "id": "troop-consigliere",
       "description": "A wise and well-dressed consigliere.",
-      "imageUrl": "https://images.unsplash.com/photo-1542498654-ddaa225d12c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYWZpYSUyMGNvbnNpZ2xpZXJlfGVufDB8fHx8MTc2Njk5MTY2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/img/trop/troop-consigliere.webp",
       "imageHint": "mafia consigliere"
     }
   ]
