@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Coins, Shell, Droplets } from "lucide-react";
-import type { Room } from "./rooms-data";
+import type { Room } from "@/lib/data/rooms-data";
 
 type RoomCardProps = {
   room: Room;

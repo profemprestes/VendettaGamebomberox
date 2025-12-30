@@ -2,7 +2,7 @@
 'use client';
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import type { TechItem } from "./tech-tree-data";
+import type { TechItem } from "@/lib/data/tech-tree-data";
 import { cn } from "@/lib/utils";
 
 type TechTreeTableProps = {
