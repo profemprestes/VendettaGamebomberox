@@ -20,13 +20,22 @@ export type Troop = {
 
 export const recruitmentData: Troop[] = [
     {
+        id: "porteador",
+        name: "Porteador",
+        description: "Los porteadores son meras unidades civiles, que simplemente llevan cosas de aquí para allá. Por lo cual sólo los deberías utilizar como unidad de transporte y no como unidades de combate.",
+        image: "troop-porteador",
+        stats: { attack: 0, defense: 0, speed: 10, capacity: 1000 },
+        costs: { Armas: 300, Municion: 100, Dolares: 1000 },
+        duration: "01:00:00",
+    },
+    {
         id: "maton",
         name: "Matón",
-        description: "El Matón es la unidad básica de infantería. Barato y rápido de entrenar, pero no muy fuerte. Ideal para saqueos rápidos y como carne de cañón.",
-        image: "troop-thug",
+        description: "Los Matones son unidades de combate simple, no dejarán escapar la oportunidad de atacar a cualquier unidad enemiga que detecte. En cantidades grandes incluso pueden ser muy peligrosos.",
+        image: "troop-maton",
         stats: { attack: 10, defense: 5, speed: 10, capacity: 50 },
-        costs: { Armas: 50, Municion: 20 },
-        duration: "00:01:30",
+        costs: { Armas: 200, Municion: 1000 },
+        duration: "00:23:20",
     },
     {
         id: "asesino",
@@ -56,3 +65,7 @@ export const recruitmentData: Troop[] = [
         duration: "00:15:00",
     },
 ];
+
+export const recruitmentQueue = [
+    { name: "Porteador", quantity: 1, duration: "00:59:59" }
+]

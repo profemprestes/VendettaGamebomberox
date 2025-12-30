@@ -1,4 +1,4 @@
-import { recruitmentData } from "./recruitment-data";
+import { recruitmentData, recruitmentQueue } from "./recruitment-data";
 import { TroopCard } from "./troop-card";
 import {
     Card,
@@ -6,6 +6,8 @@ import {
     CardHeader,
     CardTitle,
   } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 export default function RecruitmentPage() {
   return (
@@ -16,13 +18,26 @@ export default function RecruitmentPage() {
                     Reclutamiento
                 </CardTitle>
             </CardHeader>
-            <CardContent className="p-4">
-                <p className="text-sm">En el Campo de Entrenamiento, puedes reclutar diferentes tipos de unidades. Cada unidad tiene diferentes fortalezas y debilidades. La velocidad de reclutamiento depende del nivel de tu Campo de Entrenamiento.</p>
+            <CardContent className="p-4 flex flex-col items-center gap-2">
+                <Select>
+                    <SelectTrigger className="w-full bg-white">
+                        <SelectValue placeholder="Cola de reclutamiento" />
+                    </SelectTrigger>
+                    <SelectContent>
+                        {recruitmentQueue.map((item, index) => (
+                            <SelectItem key={index} value={`${item.name}-${index}`}>
+                                {item.quantity} {item.name} - Durata {item.duration}
+                            </SelectItem>
+                        ))}
+                    </SelectContent>
+                </Select>
+                <Button variant="outline" size="sm">Cancella truppe selezionate</Button>
+                <p className="text-xs">Durata dell'elenco d' attesa: {recruitmentQueue[0]?.duration || '00:00:00'}</p>
             </CardContent>
         </Card>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="space-y-2">
             {recruitmentData.map((troop) => (
-            <TroopCard key={troop.id} troop={troop} />
+                <TroopCard key={troop.id} troop={troop} />
             ))}
         </div>
     </div>
